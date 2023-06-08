@@ -1,3 +1,5 @@
+/* quest 10
+
 import { Injectable } from '@angular/core';
 
 @Injectable({
@@ -22,5 +24,25 @@ export class CocktailService {
         Image: 'pina-colada.jpg'
       }
     ];
+  }
+}
+*/
+
+/* quest 11 */
+import { Injectable } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { Observable } from 'rxjs';
+import { Cocktail } from './cocktail';
+
+@Injectable({
+  providedIn: 'root'
+})
+export class CocktailService {
+  private cocktailsUrl = 'assets/cocktails.json';
+
+  constructor(private http: HttpClient) { }
+
+  getCocktails(): Observable<Cocktail[]> {
+    return this.http.get<Cocktail[]>(this.cocktailsUrl);
   }
 }

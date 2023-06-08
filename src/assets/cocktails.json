@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Mojito",
+    "price": 8.5,
+    "Image": "https://example.com/mojito.jpg"
+  },
+  {
+    "name": "Piña Colada",
+    "price": 9.75,
+    "Image": "https://example.com/pina-colada.jpg"
+  },
+  {
+    "name": "Margarita",
+    "price": 7.25,
+    "Image": "https://example.com/margarita.jpg"
+  },
+  {
+    "name": "Cosmopolitan",
+    "price": 10,
+    "Image": "https://example.com/cosmopolitan.jpg"
+  },
+  {
+    "name": "Mai Tai",
+    "price": 9.5,
+    "Image": "https://example.com/mai-tai.jpg"
+  }
+]
